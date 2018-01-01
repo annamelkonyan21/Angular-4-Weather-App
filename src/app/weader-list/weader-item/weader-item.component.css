@@ -1,0 +1,43 @@
+.main{
+    width: 70%;
+    height: 100px;
+    margin: 2px auto;
+    border-radius: 8px;
+    background: white;
+    
+}
+
+
+.col1{
+    width: 50%;
+    opacity: 0.5;
+    float: left;
+  
+}
+.city{
+    color: #201e29;
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.cityMin{
+    color: #201e29;
+    padding-left: 25px;
+}
+
+.col2{
+    width: 50%;  
+    float: left;
+}
+
+.degree{
+    text-align: right;
+    padding-right: 20px;
+    color: #201e29;
+}
+
+@media only screen and (max-width: 550px){
+    .main{
+        width: 90%;
+    }
+}

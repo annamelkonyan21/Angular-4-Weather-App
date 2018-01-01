@@ -1,0 +1,29 @@
+.search{
+    margin: 0 auto;
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 65%;
+    padding: 10px 20px;
+    
+}
+input:focus{
+    outline-width: 0;
+}
+
+button{
+    width: 20%;
+    padding: 9px 20px;
+    background: white;
+    color:#4D4A4A;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #2a2253;
+    color: white;
+}

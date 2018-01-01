@@ -1,0 +1,10 @@
+<section class="search">
+  <form (ngSubmit)="onSubmit(city.value)" >
+    <input type="text" id="weader-search" #city city.value=''
+    required  autocomplete="off">
+    <button type="submit">Add city</button>
+  </form>
+  <div>
+    <span class="info">City Found:</span> City Name
+  </div>
+</section>
